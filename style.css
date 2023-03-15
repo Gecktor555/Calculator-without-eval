@@ -1,0 +1,116 @@
+
+
+
+
+.calc {
+	font-weight: 700;
+	border-radius: 40px;
+	color: #fff;
+	background-color: #000;
+	max-width: 400px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+}
+.calc-screen {
+	border: 15px solid#000;
+	border-radius: 40px 40px 0px 0px;
+	background-color: rgb(52, 75, 75);
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
+	padding: 15px 10px;
+	font-size: 90px;
+	font-weight: 500;
+		
+}
+.buttons {
+	padding: 10px 15px 15px ;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 10px;
+	
+}
+
+.btn {
+	border-radius: 50%;
+	border: 1px solid rgb(50, 49, 49);
+	line-height: 80px;
+	text-align: center;
+	font-size: 45px;
+	cursor: pointer;
+	background-color: rgb(51, 50, 50);
+}
+.btn:hover{
+	color: yellow;
+	background-color: #555;
+}
+/*
+.btn__zero{
+	border-radius: 50%;
+	border: 1px solid#999;
+	text-align: center;
+	font-size: 25px;
+	width: 200px;
+	padding: 35% 0;
+}
+*/
+.ac {
+	background-color: #999;
+}
+.bg-grey {
+}
+.bg-grey:hover{
+	background-color: rgb(188, 187, 187);
+}
+.plus-minus {
+	background-color: #999;
+}
+.percent {
+	background-color: #999;
+}
+.division {
+	background-color: orange;
+}
+.bg-orange {
+	background-color: orange;
+}
+.bg-orange:hover{
+	color: rgb(5, 249, 204);
+	background-color: rgb(238, 251, 51);
+}
+.seven {
+}
+.eight {
+}
+.nine {
+}
+.myltiply {
+}
+.four {
+}
+.five {
+}
+.six {
+}
+.minus {
+	background-color: orange;
+}
+.one {
+}
+.two {
+}
+.three {
+}
+.plus {
+	background-color: orange;
+}
+.zero {
+	border-radius: 40px;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.dot {
+}
+.equal {
+	background-color: orange;
+}
